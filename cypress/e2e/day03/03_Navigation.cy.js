@@ -10,7 +10,7 @@ describe('Navigation', () => {
 
         cy.wait(3000)
 
-        cy.go('back') // geri git dedik onceki sayfaya don
+        cy.go('back') // geri don
         // cy.go(-1) -1 de geri gitme islemini yapar
 
         cy.wait(3000)
