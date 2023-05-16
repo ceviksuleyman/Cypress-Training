@@ -3,7 +3,7 @@
 describe("Multiple Windows", () => {
 
     // 1.yontem
-    it("Removing Attribute", () => {
+    it.skip("Removing Attribute", () => {
 
         cy.visit("https://the-internet.herokuapp.com/windows");
 
@@ -11,10 +11,12 @@ describe("Multiple Windows", () => {
         // burada 2. sayfada acilmasini engelleyip ayni pencereden çalismaya devam etmek icin
         // invoke('removeAttr','target') -> target attribute'unu kaldirdik
         // neden target bu sayfa icin buna atamasi yapilmis
+
+        cy.get('h3').should('have.text','New Window')
     });
 
     // 2.yontem
-    it.only("New URL", () => {
+    it("New URL", () => {
 
 
         cy.visit("https://the-internet.herokuapp.com/windows"); // bu sayfaya gittik
@@ -29,5 +31,6 @@ describe("Multiple Windows", () => {
             // prop() -> href degerini aldik
         });
 
+        cy.get('h3').should('have.text','New Window')
     });
 });
