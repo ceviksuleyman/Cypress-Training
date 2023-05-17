@@ -14,6 +14,7 @@ npm install cypress --save-dev
 npx cypress open
 npx cypress run --spec cypress\e2e\day05\03_CustomCommands.cy.js
 npx cypress info
+npm run cy:RunDay02
 */
 /**
  * npx cypress run: Electron headless (browser ı acmadan)  ile butun testleri calistirir
