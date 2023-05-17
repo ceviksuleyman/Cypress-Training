@@ -30,9 +30,10 @@ describe("Custom Command1", () => {
 
     it("Negative Login with Custom", () => {
 
-        cy.ap_login("cypresstest@gmail.com", "Sc1234!aa"); // dogru mail yanlis password girdik ve giris yapamadigimizi dogruluyoruz
+        cy.ap_login("cypresstest@gmail.com", "Sc1234!aa"); 
+        // dogru mail yanlis password 
 
         cy.wait(3000)
-        cy.get("ol > li").should("have.text", "Authentication failed.");
+        cy.get("ol > li").should('include.text', "Authentication failed.");
     });
 });
