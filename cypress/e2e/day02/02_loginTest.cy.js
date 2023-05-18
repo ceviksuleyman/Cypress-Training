@@ -1,6 +1,7 @@
 /// <reference types="cypress"/>
 
 describe("Koala Resort Hotel", () => {
+    
     it("Login Test", () => {
         cy.visit("https://qa-environment.koalaresorthotels.com/");
 

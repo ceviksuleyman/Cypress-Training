@@ -77,9 +77,9 @@ PACKAGE.JSON dosyasi icerisindeki script bolumune kendimizin belirleyeceği cali
  Olusturdugumuz bu komutu terminalde su sekilde calistiracagiz
 
 
- "test-dashboard" : "npx cypress run --record --key c834637f-a6d6-49b5-9279-10b30b3eaeb0",
+ "test-dashboard" : "npx cypress run --record --key f175aa71-bd4f-42db-a902-e59586ce7ab1",
         npm run test_dashboard => butun testlerim calistirilip dashboard a gonderilecek
 
- "dashboard_day02": "npx cypress run --spec 'cypress/e2e/day02/' --record --key c834637f-a6d6-49b5-9279-10b30b3eaeb0"
-        npm run dashboard_day02 => day02 klasorundeki testler calisacak ve dashboard a gonderilecek
+ "dashboard_day06": "npx cypress run --spec 'cypress/e2e/day06/' --record --key f175aa71-bd4f-42db-a902-e59586ce7ab1"
+        npm run dashboard_day06 => day02 klasorundeki testler calisacak ve dashboard a gonderilecek
  */

@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:RunDay02": "npx cypress run --spec 'cypress\\e2e\\day02'",
-    "mytest": "npx cypress run --spec 'cypress\\e2e\\day02' --browser chrome --headed"
+    "cy:RunDay06": "npx cypress run --spec 'cypress\\e2e\\day06'",
+    "mytest": "npx cypress run --spec 'cypress\\e2e\\day02' --browser chrome --headed",
+    "test-dashboard" : "npx cypress run --record --key f175aa71-bd4f-42db-a902-e59586ce7ab1",
+    "dashboard_day06": "npx cypress run --spec 'cypress/e2e/day06/' --record --key f175aa71-bd4f-42db-a902-e59586ce7ab1"
   },
   "author": "cevik",
   "license": "ISC",
